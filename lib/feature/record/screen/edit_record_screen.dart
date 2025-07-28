@@ -28,7 +28,7 @@ class EditRecordScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            // mainAxisAlignment: MainAxisAlignment.s,
             children: [
               ListTile(
                 title: Text('일자'),
@@ -59,10 +59,10 @@ class EditRecordScreen extends StatelessWidget {
               ...List.generate(ItemCategory.values.length, (index) {
                 ItemCategory item = ItemCategory.values[index];
                 return ListTile(
-                  leading: Image.asset(
-                    'assets/images/${item.imgName}',
-                    width: 40,
-                  ),
+                  // leading: Image.asset(
+                  //   'assets/images/${item.imgName}',
+                  //   width: 40,
+                  // ),
                   title: Text(item.label),
                   trailing: SizedBox(
                     width: size.width * .4,

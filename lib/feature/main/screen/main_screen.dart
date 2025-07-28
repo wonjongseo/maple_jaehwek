@@ -1,4 +1,5 @@
-import 'package:every_maple/feature/record/screen/record_screen.dart';
+import 'package:every_maple/feature/notices/screen/notice_screen.dart';
+import 'package:every_maple/feature/record/screen/record_calendar.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
 
@@ -20,8 +21,10 @@ class _MainScreenState extends State<MainScreen> {
   // 1) 각 탭에 대응하는 화면 목록
   List<Widget> _buildScreens() {
     return [
-      RecordScreen(),
-      const Center(child: Text('Search Page', style: TextStyle(fontSize: 24))),
+      RecordCalendarView(),
+      NoticeScreen(),
+      // RecordScreen(),
+      // const Center(child: Text('Search Page', style: TextStyle(fontSize: 24))),
       const Center(child: Text('Add Page', style: TextStyle(fontSize: 24))),
       const Center(
           child: Text('Notifications Page', style: TextStyle(fontSize: 24))),

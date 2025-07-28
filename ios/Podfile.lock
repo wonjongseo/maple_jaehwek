@@ -11,6 +11,8 @@ PODS:
   - shared_preferences_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
+  - url_launcher_ios (0.0.1):
+    - Flutter
   - webview_flutter_wkwebview (0.0.1):
     - Flutter
 
@@ -20,6 +22,7 @@ DEPENDENCIES:
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
   - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
   - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
 
 EXTERNAL SOURCES:
@@ -33,17 +36,20 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/photo_manager/ios"
   shared_preferences_foundation:
     :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
   webview_flutter_wkwebview:
     :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
-  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
-  photo_manager: ff695c7a1dd5bc379974953a2b5c0a293f7c4c8a
-  shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
-  webview_flutter_wkwebview: 4f3e50f7273d31e5500066ed267e3ae4309c5ae4
+  image_picker_ios: 7fe1ff8e34c1790d6fff70a32484959f563a928a
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  photo_manager: d2fbcc0f2d82458700ee6256a15018210a81d413
+  shared_preferences_foundation: 0b09b969fb36da5551c0bc4a2dbd9d0ff9387478
+  url_launcher_ios: 694010445543906933d732453a59da0a173ae33d
+  webview_flutter_wkwebview: daa94b5ed120e19439eb7f797649768d6360ebdd
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.16.2

@@ -23,8 +23,16 @@ class ApiUrl {
   ]
  */
   static const getNotices = '/maplestory/v1/notice';
-
   static const getNoticeDetail = '/maplestory/v1/notice/detail';
+
+  static const getUpdateNotices = '/maplestory/v1/notice-update';
+  static const getUpdateNotice = '/maplestory/v1/notice/detail';
+
+  static const getNoticeEvents = '/maplestory/v1/notice-event';
+  static const getNoticeEvent = '/maplestory/v1/notice/detail';
+
+  static const getCashEvents = '/maplestory/v1/notice-cashshop';
+  static const getCashEvent = '/maplestory/v1/notice/detail';
 
   static const getEvnets = '/maplestory/v1/notice-event';
 //
